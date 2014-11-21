@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class BearsControllerTest < ActionController::TestCase
+class BearTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
