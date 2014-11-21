@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   namespace :api, defaults: {format: 'json'} do
     namespace :v1 do
-      resources :bears, :only => [:index, :create]
+      resources :bears, :only => [:index, :create, :show]
     end
   end
   # The priority is based upon order of creation: first created -> highest priority.
