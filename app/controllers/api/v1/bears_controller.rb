@@ -1,9 +1,6 @@
 class Api::V1::BearsController < ApplicationController
     def index
-        render :json => {
-            :success => true,
-            :message => "index"
-        }
+        
     end
 
     def create
